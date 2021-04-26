@@ -29,12 +29,6 @@ namespace 两数相加
             printList(sum);
         }
 
-        // static ListNode AddTwoNumbers(ListNode l1, ListNode l2)
-        // {
-        //     
-        // }
-
-
         static ListNode generateList(int[] vals)
         {
             ListNode res = null;
@@ -64,18 +58,6 @@ namespace 两数相加
             }
             Console.WriteLine("");
         }
-
-        static void Main()
-        {
-            var l1 = generateList(new int[] { 1, 5, 7 });
-            var l2 = generateList(new int[] { 9, 8, 2, 9 });
-            printList(l1);
-            printList(l2);
-            Solution s = new Solution();
-            var sum = s.AddTwoNumbers(l1, l2);
-            printList(sum);
-        }
-
     }
 
     public class ListNode
