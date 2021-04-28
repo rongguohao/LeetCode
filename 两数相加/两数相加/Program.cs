@@ -89,7 +89,7 @@ namespace 两数相加
                 l1 = l1 == null ? null : l1.next;
                 l2 = l2 == null ? null : l2.next;
             }
-            return prenode.next;
+            return prenode.next; // 去除头节点，返回头节点后面所有节点
         }
 
         ///// <summary>
