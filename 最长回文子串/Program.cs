@@ -30,7 +30,8 @@ namespace 最长回文子串
     {
         static void Main(string[] args)
         {
-            LongestPalindrome("bacabad");
+            var result = LongestPalindrome("bacabad");
+            Console.WriteLine(result);
             Console.ReadKey();
         }
 
