@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "无重复字符的最长子
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "寻找两个正序数组的中位数", "寻找两个正序数组的中位数\寻找两个正序数组的中位数.csproj", "{A92489C9-6AA1-42D3-95CD-4ECCF35FF118}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "最长回文子串", "最长回文子串\最长回文子串.csproj", "{F0628DDF-9E68-4331-AB8E-C85FD88378AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "最长回文子串", "最长回文子串\最长回文子串.csproj", "{F0628DDF-9E68-4331-AB8E-C85FD88378AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z 字形变换", "Z 字形变换\Z 字形变换.csproj", "{32BEF4A4-9530-4EB8-BDD5-411965AD93F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{F0628DDF-9E68-4331-AB8E-C85FD88378AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0628DDF-9E68-4331-AB8E-C85FD88378AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0628DDF-9E68-4331-AB8E-C85FD88378AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32BEF4A4-9530-4EB8-BDD5-411965AD93F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BEF4A4-9530-4EB8-BDD5-411965AD93F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BEF4A4-9530-4EB8-BDD5-411965AD93F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BEF4A4-9530-4EB8-BDD5-411965AD93F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
